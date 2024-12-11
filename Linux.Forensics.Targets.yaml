@@ -24,7 +24,7 @@ parameters:
   - name: SystemTargets
     default: /etc/fstab,/etc/hostname,/etc/ntp.conf,/etc/issue,/etc/issue.net,/etc/ld.so.preload,/etc/localtime,/etc/modules.conf,/etc/modprobe.d/*,/etc/debian_version,/etc/centos-release,/etc/enterprise-release,/etc/oracle-release,/etc/redhat-release,/etc/rocky-release,/etc/SuSE-release,/etc/system-release,/etc/lsb-release,/etc/os-release,/usr/lib/os-release,/etc/udev/rules.d/*,/usr/lib/udev/rules.d/*,/etc/timezone,/etc/ssh/**,/dev/shm/**
   - name: UserTargets
-    default: /etc/passwd,/etc/shadow,/etc/sudoers,/etc/sudoers.d/**,/etc/group,/home/*/.ssh/*,/home/*/.config/mozilla/**,/home/*/snap/firefox/**,/home/*/.config/google-chrome/**,/home/*/snap/chromium/**,/home/*/.aliases,/home/*/.profile,/home/*/.bash_history,/home/*/.bashrc,/home/*/.zsh_history,/home/*/.zshrc,/home/*/.wget-hsts,
+    default: /etc/passwd,/etc/shadow,/etc/sudoers,/etc/sudoers.d/**,/etc/group,/home/*/.ssh/*,/home/*/.config/mozilla/**,/home/*/snap/firefox/common/.mozilla/**,/home/*/.config/google-chrome/**,/home/*/snap/chromium/common/chromium/Default/**,/home/*/.aliases,/home/*/.profile,/home/*/.bash_history,/home/*/.bashrc,/home/*/.zsh_history,/home/*/.zshrc,/home/*/.wget-hsts,
 
 
 
